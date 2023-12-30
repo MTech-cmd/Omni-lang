@@ -1,0 +1,15 @@
+/home/mtech/Projects/Omni-lang/Hello/C#/bin/Debug/net8.0/Hello
+/home/mtech/Projects/Omni-lang/Hello/C#/bin/Debug/net8.0/Hello.deps.json
+/home/mtech/Projects/Omni-lang/Hello/C#/bin/Debug/net8.0/Hello.runtimeconfig.json
+/home/mtech/Projects/Omni-lang/Hello/C#/bin/Debug/net8.0/Hello.dll
+/home/mtech/Projects/Omni-lang/Hello/C#/bin/Debug/net8.0/Hello.pdb
+/home/mtech/Projects/Omni-lang/Hello/C#/obj/Debug/net8.0/Hello.GeneratedMSBuildEditorConfig.editorconfig
+/home/mtech/Projects/Omni-lang/Hello/C#/obj/Debug/net8.0/Hello.AssemblyInfoInputs.cache
+/home/mtech/Projects/Omni-lang/Hello/C#/obj/Debug/net8.0/Hello.AssemblyInfo.cs
+/home/mtech/Projects/Omni-lang/Hello/C#/obj/Debug/net8.0/Hello.csproj.CoreCompileInputs.cache
+/home/mtech/Projects/Omni-lang/Hello/C#/obj/Debug/net8.0/Hello.sourcelink.json
+/home/mtech/Projects/Omni-lang/Hello/C#/obj/Debug/net8.0/Hello.dll
+/home/mtech/Projects/Omni-lang/Hello/C#/obj/Debug/net8.0/refint/Hello.dll
+/home/mtech/Projects/Omni-lang/Hello/C#/obj/Debug/net8.0/Hello.pdb
+/home/mtech/Projects/Omni-lang/Hello/C#/obj/Debug/net8.0/Hello.genruntimeconfig.cache
+/home/mtech/Projects/Omni-lang/Hello/C#/obj/Debug/net8.0/ref/Hello.dll

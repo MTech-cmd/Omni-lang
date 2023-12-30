@@ -47,6 +47,7 @@ Though I will most likely reduce the most important ones to:
 
 I must solve a challenge in all these in order to continue to the next.\
 I will try to solve for the following languages as well though I will use cross-compilers (Like with Kotlin and Haxe) for these ones\
+(yes this is an excuse to avoid JavaScript)
 
 - C
 - C#
@@ -71,7 +72,16 @@ Print out the phrase 'Hello, X!' followed by a newline. Where X is equal to the 
 So for Python it needs to print out the phrase 'Hello, Python!' in the terminal.\
 For HTML it must display 'Hello, HTML!' in a browser. etc
 Completion:
-- NA
+
+- Bash
+- C
+- C#
+- C++
+- HTML
+- Java
+- Markdown
+- PHP
+- Python
 
 ### Echo Echo
 Ask the user for input on the same line and display that input again on a newline.\
@@ -204,4 +214,4 @@ WIP
 WIP
 
 ### Bonus
-As a bonus you can always compile them to the closest binaries and away from the source code and make a program that checks whether your program actually works.
+As a bonus you can always compile them to the closest binaries and away from the source code (and make a run script for both) and make a program that checks whether your program actually works.

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "tIEMFqVEAXZkegzCAAVkUbDO2t/2q3F6LTfei4RdGEq7j588AgfwTGruj1NIudvGtjhlsyT+3xyDR/2ZFKkubQ==",
+  "success": true,
+  "projectFilePath": "/home/mtech/Projects/Omni-lang/Hello/C#/Hello.csproj",
+  "expectedPackageFiles": [
+    "/home/mtech/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.0/microsoft.aspnetcore.app.ref.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
