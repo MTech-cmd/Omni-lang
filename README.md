@@ -79,6 +79,7 @@ Completion:
 - C++
 - HTML
 - Java
+- JavaScript
 - Markdown
 - PHP
 - Python
