@@ -83,6 +83,7 @@ Completion:
 - Markdown
 - PHP
 - Python
+- TypeScript
 
 ### Echo Echo
 Ask the user for input on the same line and display that input again on a newline.\
@@ -129,7 +130,11 @@ Then you can execute the binaries using the following command:
 ### C#
 For C# use dotnet-sdk with the following command:
 ```
-dotnet run
+dotnet build
+```
+Now you can find the binaries in 
+```
+bin/Debug/net8.0/Program
 ```
 
 ### C++
@@ -164,15 +169,31 @@ Install jdk-openjdk and compile it to a Java Class using the following command:
 ```
 javac Program.java
 ```
-Run the class in the JVM using the following command:
+Create a manifest override file that contains meta-data for the Manifest Version, Created By and Main Class\
+Compile to jar using the following command:
 ```
-java Program
+jar -cfm program.jar manifest-overrides.txt Program.class
+```
+Now you can run the program with:
+```
+java -jar program.jar
 ```
 
 ### JavaScript
-Install Node and run the script with the following command:
+Install Node and NPM.\
+Through NPM install postject.\
+Make a sea-config.json files containing data for the main and the output.\
+Generate the blob with the following command:
 ```
-node program.js
+node --experimental-sea-config sea-config.json
+```
+Copy the Node executable with the following command:
+```
+cp $(command -v node) program
+```
+Inject the blob into the executable using the following command:
+```
+npx postject program NODE_SEA_BLOB sea-prep.blob \ --sentinel-fuse NODE_SEA_FUSE_fce680ab2cc467b6e072b8b5df1996b2
 ```
 
 ### Kotlin
@@ -192,6 +213,10 @@ Install PHP and run the script with the following command:
 ```
 php program.php
 ```
+Or add the following line to the top of the file to run the script automatically in Bash/Zsh:
+```
+#!/usr/bin/php
+```
 
 ### PowerShell
 WIP
@@ -200,6 +225,10 @@ WIP
 Install python and use the following command:
 ```
 python program.py
+```
+Or add the following line to the top of the file to run the script automatically in Bash/Zsh:
+```
+#!/usr/bin/env python
 ```
 
 ### Ruby
@@ -212,7 +241,25 @@ WIP
 WIP
 
 ### TypeScript
-WIP
+Install Node and NPM.\
+Through NPM install postject and typescript.\
+Compile the ts file to js with the following command:
+```
+tsc program.ts
+```
+Make a sea-config.json files containing data for the main (program.js) and the output(sea-prep.blob).\
+Generate the blob with the following command:
+```
+node --experimental-sea-config sea-config.json
+```
+Copy the Node executable with the following command:
+```
+cp $(command -v node) program
+```
+Inject the blob into the executable using the following command:
+```
+npx postject program NODE_SEA_BLOB sea-prep.blob \ --sentinel-fuse NODE_SEA_FUSE_fce680ab2cc467b6e072b8b5df1996b2
+```
 
 ### Bonus
 As a bonus you can always compile them to the closest binaries and away from the source code (and make a run script for both) and make a program that checks whether your program actually works.
