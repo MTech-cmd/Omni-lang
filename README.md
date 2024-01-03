@@ -77,6 +77,7 @@ Completion:
 - C
 - C#
 - C++
+- Dart
 - HTML
 - Java
 - JavaScript
@@ -147,7 +148,11 @@ g++ program.cpp -o program.out
 WIP
 
 ### Dart
-WIP
+Install Dart and make a .dart file.\
+Compile using the following command:
+```
+dart compile exe program.dart
+```
 
 ### Go!
 WIP
