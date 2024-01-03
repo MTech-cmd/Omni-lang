@@ -78,6 +78,8 @@ Completion:
 - C#
 - C++
 - Dart
+- Go!
+- Haxe
 - HTML
 - Java
 - JavaScript
@@ -155,7 +157,16 @@ dart compile exe program.dart
 ```
 
 ### Go!
-WIP
+Install Go!.\
+Make a new go mod with the following command:
+```
+go mod init program
+```
+Make a .go file.\
+Compile with the following command:
+```
+go build -o program program.go
+```
 
 ### Haskell
 WIP
