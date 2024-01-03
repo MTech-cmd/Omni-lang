@@ -161,7 +161,16 @@ WIP
 WIP
 
 ### Haxe
-WIP
+Install Haxe and haxelib.\
+Use haxelib to install hxcpp with the following command:
+```
+haxelib install hxcpp
+```
+make a build.hxml file with a main argument and a cpp argument
+Use the following command:
+```
+haxe build.hxml
+```
 
 ### HolyC
 WIP
