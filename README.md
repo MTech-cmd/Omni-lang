@@ -1,290 +1,43 @@
 # What is this
 This is a series of projects that I will try to solve in as many languages as possible.\
-I won't solve every challenge in every language but I will try to.\
-I will solve the first challenge (Hello) in every language.\
 
-# TOC
-- [List of languages](#the-languages)
-- [The Challenges](#the-challenges)
+## Categories
+I have divided this into different categories which are:
+- [Pilot](#pilot)
+- [CLI](#cli) 
+- [Back-end](#back-end)
+- [Front-end](#front-end)
+- [Full-stack](#full-stack)
+- [Local](#local)
+- [Docker](#docker) 
+- [2D Gaming](#2d-gaming)
+- [3D Gaming](#3d-gaming)
 
-## The languages
-I have chosen these languages based on variety and personal preference. There is also a guide in this document on how to run these files.\
-The languages are:
-- [Assembly](#assembly)
-- [Bash](#bash)
-- [Brainfuck](#brainfuck)
-- [C](#c)
-- [C#](#c-1)
-- [C++](#c-2)
-- [COBOL](#cobol)
-- [Dart](#dart)
-- [Go!](#go)
-- [Haskell](#haskell)
-- [Haxe](#haxe)
-- [HolyC](#holyc)
-- [HTML](#html)
-- [Java](#java)
-- [JavaScript](#javascript)
-- [Kotlin](#kotlin)
-- [Lua](#lua)
-- [Markdown](#markdown)
-- [Perl](#perl)
-- [PHP](#php)
-- [PowerShell](#powershell)
-- [Python](#python)
-- [Ruby](#ruby)
-- [Rust](#rust)
-- [Swift](#swift)
-- [TypeScript](#typescript)
+### Pilot
+This is a unique category in where I try to basically do Hello World in as many languages and compile it as close to machine code as possible.
 
-Though I will most likely reduce the most important ones to:
-- C++
-- Haxe
-- Kotlin
-- TypeScript
-- PHP
-- Python
+### CLI
+For the CLI the rules are simple, it must run on a UNIX based system in the command line interface running ZSH.
 
-I must solve a challenge in all these in order to continue to the next.\
-I will try to solve for the following languages as well though I will use cross-compilers (Like with Kotlin and Haxe) for these ones\
-(yes this is an excuse to avoid JavaScript)
+### Back-end
+The back-end must be a server ready application that must be able to connect to a front-end by an API, every challenge here will be linked to its front-end counterpart.\
+The back-end must communicate with a MariaDB database and store information.\
 
-- C
-- C#
-- Dart
-- Go!
-- Java
-- JavaScript
-- Perl
-- Ruby
-- Rust
-- Swift
+### Front-end
+The Front-end must be ready to accept any back-ends from the back-end challenges and convert it into a visually appealing front-end.
 
-## The Challenges
-The challenges are in order of completion and difficulty and I will include the languages I managed to solve the challenge in. They are:
-- [Hello](#hello)
-- [Echo Echo](#echo-echo)
-- [FizzBuzz](#fizzbuzz)
-- [Calculator](#calculator)
+### Full-stack
+Similar to back and front end but for full-stack frameworks.
 
-### Hello
-Print out the phrase 'Hello, X!' followed by a newline. Where X is equal to the program language you're solving for.\
-So for Python it needs to print out the phrase 'Hello, Python!' in the terminal.\
-For HTML it must display 'Hello, HTML!' in a browser. etc
-Completion:
+### Local
+This category refers to offline apps that don't need a server. These are fullstack apps and they must work on either Windows, LinuxGNU, macOS, iOS or Android,
 
-- Bash
-- C
-- C#
-- C++
-- Dart
-- Go!
-- Haxe
-- HTML
-- Java
-- JavaScript
-- Markdown
-- PHP
-- Python
-- TypeScript
+### Docker
+The point of this category is that some of these projects must be able to be dockerized.\
+This is more targeted towards DevOps.
 
-### Echo Echo
-Ask the user for input on the same line and display that input again on a newline.\
+### 2D Gaming
+With this category I will try to explore different gaming frameworks and engines.
 
-```
-Input: This is Echo Echo for C#
-Echo: This is Echo Echo for C#
-```
-Completion:
-- NA
-
-### FizzBuzz
-Make a program that prints out the numbers 1 to 100 but replaces the number with 'Fizz' when dividable by 3, 'Buzz' when dividable by 5 and 'FizzBuzz' when divisable by both.\
-DO NOT HARDCODE.
-Completion:
-- NA
-
-### Calculator
-Ask the user for a number, an operator and another number and print out the full equation on a newline.\
-The following operators must be usable: + - * / % and if the user gives an invalid input it must terminate the program and display why.\
-If the user tries to divide by 0 it must terminate the program and display why.
-Completion:
-- NA
-
-### Assembly
-WIP
-
-### Bash
-For Bash run any Bash or Zsh terminal, The standard for OS X and most LinuxGNU.
-
-### Brainfuck
-WIP
-
-### C
-For C use GCC and compile it to binaries using the following command:
-```
-gcc program.c -o program.out
-```
-Then you can execute the binaries using the following command:
-```
-./program.out
-```
-
-### C#
-For C# use dotnet-sdk with the following command:
-```
-dotnet build
-```
-Now you can find the binaries in 
-```
-bin/Debug/net8.0/Program
-```
-
-### C++
-For C++ use GCC and compile it to binaries using the following command:
-```
-g++ program.cpp -o program.out
-```
-
-### COBOL
-WIP
-
-### Dart
-Install Dart and make a .dart file.\
-Compile using the following command:
-```
-dart compile exe program.dart
-```
-
-### Go!
-Install Go!.\
-Make a new go mod with the following command:
-```
-go mod init program
-```
-Make a .go file.\
-Compile with the following command:
-```
-go build -o program program.go
-```
-
-### Haskell
-WIP
-
-### Haxe
-Install Haxe and haxelib.\
-Use haxelib to install hxcpp with the following command:
-```
-haxelib install hxcpp
-```
-make a build.hxml file with a main argument and a cpp argument
-Use the following command:
-```
-haxe build.hxml
-```
-
-### HolyC
-WIP
-
-### HTML
-Open the HTML file in Firefox or any browser.
-
-### Java
-Install jdk-openjdk and compile it to a Java Class using the following command:
-```
-javac Program.java
-```
-Create a manifest override file that contains meta-data for the Manifest Version, Created By and Main Class\
-Compile to jar using the following command:
-```
-jar -cfm program.jar manifest-overrides.txt Program.class
-```
-Now you can run the program with:
-```
-java -jar program.jar
-```
-
-### JavaScript
-Install Node and NPM.\
-Through NPM install postject.\
-Make a sea-config.json files containing data for the main and the output.\
-Generate the blob with the following command:
-```
-node --experimental-sea-config sea-config.json
-```
-Copy the Node executable with the following command:
-```
-cp $(command -v node) program
-```
-Inject the blob into the executable using the following command:
-```
-npx postject program NODE_SEA_BLOB sea-prep.blob \ --sentinel-fuse NODE_SEA_FUSE_fce680ab2cc467b6e072b8b5df1996b2
-```
-
-### Kotlin
-WIP
-
-### Lua
-WIP
-
-### Markdown
-Open the Markdown file in Typora or any Markdown viewer
-
-### Perl
-WIP
-
-### PHP
-Install PHP and run the script with the following command:
-```
-php program.php
-```
-Or add the following line to the top of the file to run the script automatically in Bash/Zsh:
-```
-#!/usr/bin/php
-```
-
-### PowerShell
-WIP
-
-### Python
-Install python and use the following command:
-```
-python program.py
-```
-Or add the following line to the top of the file to run the script automatically in Bash/Zsh:
-```
-#!/usr/bin/env python
-```
-
-### Ruby
-WIP
-
-### Rust
-WIP
-
-### Swift
-WIP
-
-### TypeScript
-Install Node and NPM.\
-Through NPM install postject and typescript.\
-Compile the ts file to js with the following command:
-```
-tsc program.ts
-```
-Make a sea-config.json files containing data for the main (program.js) and the output(sea-prep.blob).\
-Generate the blob with the following command:
-```
-node --experimental-sea-config sea-config.json
-```
-Copy the Node executable with the following command:
-```
-cp $(command -v node) program
-```
-Inject the blob into the executable using the following command:
-```
-npx postject program NODE_SEA_BLOB sea-prep.blob \ --sentinel-fuse NODE_SEA_FUSE_fce680ab2cc467b6e072b8b5df1996b2
-```
-
-### Bonus
-As a bonus you can always compile them to the closest binaries and away from the source code (and make a run script for both) and make a program that checks whether your program actually works.
+### 3D Gaming
+The same as 2D but with an extra dimension.
