@@ -4,14 +4,20 @@ If it's for the web it must be compatible with PWA and TWA for Android unless sp
 
 ## Techs
 - JavaScript
+- React
 - Vue
 - Svelte
 - Angular
-- [Flutter](#flutter)
 - Flamestream
-- React
+- [Flutter](#flutter)
 - [React Native](#react-native)
+- Ionic
+    - Vanilla
+    - React
+    - Vue
+    - Angular
 - [Kotlin](#kotlin)
+- [Kotlin Multiplatform](#kotlin-multiplatform)
 - [Swift](#swift)
 
 ### Flutter
@@ -23,8 +29,13 @@ You must make seperate apps for iOS and Android
 ### Kotlin
 Android only.
 
+## Kotlin Multiplatform
+Android and iOS
+
 ### Swift
 iOS only.
+
+## The Challenges
 
 ### Hello
 Read a single string from a back end. give a button that allows the user to switch between seeing the back-end or the front-end used.

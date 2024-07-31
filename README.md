@@ -29,12 +29,10 @@ The Front-end must be ready to accept any back-ends from the back-end challenges
 ### Full-stack
 Similar to back and front end but for full-stack frameworks.
 
-### Local
-This category refers to offline apps that don't need a server. These are fullstack apps and they must work on either Windows, LinuxGNU, macOS, iOS or Android,
-
-### Docker
+### DevOps
 The point of this category is that some of these projects must be able to be dockerized.\
-This is more targeted towards DevOps.
+This is more targeted towards DevOps.\
+This is also a list of all the hosting solutions that need to be used
 
 ### 2D Gaming
 With this category I will try to explore different gaming frameworks and engines.

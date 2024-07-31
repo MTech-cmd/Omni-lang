@@ -2,6 +2,7 @@
 - PHP
 - Go
 - Node
+- Express
 - ASP.NET
 - Ruby on Rails
 - CakePHP
@@ -10,6 +11,25 @@
 - Flask
 - Spring Boot
 - Nexus
+
+## Databases
+This may be used for any project but it must be used atleast once.
+- MongoDB
+- MySQL
+- MariaDB
+- PostgreSQL
+
+## Hosting
+- Local
+- Netlify
+- GitHub Pages
+- Vercel
+- Render
+- AWS
+- Firebase
+- Google Cloud
+- Supabase
+- Microsoft Azure
 
 ### Hello
 Read a single string from a db and send it to an API. The string should be Hello + the name of the tech used

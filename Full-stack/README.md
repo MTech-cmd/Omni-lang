@@ -1,7 +1,7 @@
 ## Techs
 - PHP
-- Express JS
 - Next JS
+- Nuxt JS
 - Laravel
 - Nexus
 
